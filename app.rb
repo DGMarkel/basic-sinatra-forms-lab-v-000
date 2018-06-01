@@ -4,8 +4,8 @@ class App < Sinatra::Base
 
   get "/newteam" do
     puts "hello"
-    erb :newteam  
+    erb :newteam
   end
 
-  
+
 end
